@@ -1,9 +1,11 @@
 # create a SimpleCNN class that inherits pytorch.nn.module and implement a vanilla CNN
 
-# file vanilla_cnn_2.py
-# author: Kazi Mahbub Mutakabbir
-# Email:kazi.mahbub@tum.de
-# date 17-10-2019
+_file_ = "vanilla_cnn_2.py"
+_authors_ = "Kazi Mahbub Mutakabbir"
+_version_ = "1.0.1"
+_date_ = "17-10-2019"
+_maintainer_ = "Vlas"
+_status_ = "Dev"
 
 import torch.nn.functional as F
 import torch.nn as nn
