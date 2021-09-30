@@ -6,9 +6,9 @@ The goal of the project is to develop an image classifier that will be used to i
 
 # Table of contents
 * [Architecture Overview](#Architecture_Overview)
-* [Datasets](#datasets)
-* [Theoretical Foundations](#foundations)
-    * [Convolutional Neural Network](#cnn)
+* [Datasets](##datasets)
+* [Theoretical Foundations](##foundations)
+    * [Convolutional Neural Network](###cnn)
     * [Other Well Known CNN](#cnn_others)
     * [AlexNet](#alexnet)
     * [VGG-16](#vgg)
