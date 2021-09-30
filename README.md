@@ -6,9 +6,9 @@ The goal of the project is to develop an image classifier that will be used to i
 
 # Table of contents
 * [Architecture Overview](#Architecture_Overview)
-* [Datasets](##datasets)
-* [Theoretical Foundations](##foundations)
-    * [Convolutional Neural Network](###cnn)
+* [Datasets](#datasets)
+* [Theoretical Foundations](#foundations)
+    * [Convolutional Neural Network](#cnn)
     * [Other Well Known CNN](#cnn_others)
     * [AlexNet](#alexnet)
     * [VGG-16](#vgg)
@@ -24,6 +24,7 @@ The goal of the project is to develop an image classifier that will be used to i
 * [Future Works and Conclusion](#conclusion)
 * [References and Resources](#reference)
 
+<a name="Architecture_Overview"></a>
 ## Architecture Overview
 
 The whole pipeline can be described as the following:
@@ -53,6 +54,7 @@ We have also been provided with a data set of unlabeled website URLs to test our
 
 ## Theoretical Foundations 
 
+<a name="cnn"></a>
 ### Convolutional Neural Network 
 
 A convolutional neural network (CNN) is a type of artificial neural network which is specifically designed to process pixel data and used in image recognition and processing. A CNN consists of one or more layer convolutional layers, followed by one or more fully connected layers as in a standard neural multi-layer network. CNN is designed in a way that can take advantage of the 2D structure of the image as a matrix. This is achieved by applying a weighted filter which is also a smaller matrix all over the image for feature detection and extraction followed by some form of pooling which results in translation-invariant features. CNN's also have the advantage of being more convenient to training and having far fewer parameters than the fully connected networks which have the same number of hidden units.
